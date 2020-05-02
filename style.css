@@ -34,31 +34,32 @@ main {
     position: absolute;
     right: 10px;
     top: 10px;
-    background-color: rgba(253, 185, 253, 0.452);
+    background-color: rgba(252, 198, 252, 0.562);
+    border: solid 3px rgba(253, 185, 253, 0.534);
     border-radius: 50%;
-    width: 217px;
-    height: 217px;
+    width: 240px;
+    height: 240px;
 }
 
 div.gray-container h3 {
     line-height: 0.7;
-    margin-top: 30px;
-    margin-bottom: 0;
+    margin-top: 39px;
+    margin-bottom: 11px;
     font-family: 'Kaushan Script', cursive;
     font-size: 45px;
-    color: #045c5f;
+    color: #035c5f;
     text-align: center;
     vertical-align: middle;
 }
 
 div.gray-container p {
-    line-height: 1.5;
-    margin-top: 7px;
-    margin-bottom: 10px;
-    color: #092335;
+    line-height: 1.2;
+    color: #0d3049;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -67,4 +68,3 @@ div.gray-container p {
     display: flex;
     height: 500px;
 }
-
