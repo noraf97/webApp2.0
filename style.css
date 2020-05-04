@@ -1,3 +1,7 @@
+body {
+    background-image: url(images/marble-2371776_1920.jpg);
+}
+
 main {
     width: 100%;
     height: 100%;
@@ -28,6 +32,7 @@ main {
 
 .PhotoAndText {
     position: relative;
+    border: solid 2px rgba(84, 84, 175, 0.253);
 }
 
 .gray-container {
@@ -60,6 +65,12 @@ div.gray-container p {
     vertical-align: middle;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 0;
+}
+
+#photo-name {
+    font-style: italic;
+    margin-top: 5px;
 }
 
 
@@ -67,4 +78,6 @@ div.gray-container p {
     position: relative;
     display: flex;
     height: 500px;
+    width: 800px;
+    object-fit: cover;
 }
